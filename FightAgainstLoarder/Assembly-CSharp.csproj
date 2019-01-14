@@ -51,6 +51,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\1Model\IntergationModel.cs" />
+     <Compile Include="Assets\Scripts\3Contraller\StartCommand.cs" />
+     <Compile Include="Assets\Scripts\ConstsHelper.cs" />
      <Compile Include="Assets\Scripts\FrameWork\LeanPool\Examples\Scripts\LeanDelayedPooling.cs" />
      <Compile Include="Assets\Scripts\FrameWork\LeanPool\Examples\Scripts\LeanPoolBenchmark.cs" />
      <Compile Include="Assets\Scripts\FrameWork\LeanPool\Examples\Scripts\LeanPooledRigidbody.cs" />
@@ -172,6 +175,9 @@
      <Compile Include="Assets\Scripts\FrameWork\StrangeIoC\scripts\strange\framework\impl\Binding.cs" />
      <Compile Include="Assets\Scripts\FrameWork\StrangeIoC\scripts\strange\framework\impl\SemiBinding.cs" />
      <Compile Include="Assets\Scripts\FrameWork\StrangeIoC\scripts\strange\ReadMe.cs" />
+     <Compile Include="Assets\Scripts\GameContext.cs" />
+     <Compile Include="Assets\Scripts\GameRoot.cs" />
+     <Compile Include="Assets\Scripts\Tools\Tool.cs" />
      <None Include="Assets\Scripts\FrameWork\LeanPool\Examples\Fonts\OFL.txt" />
      <None Include="Assets\Scripts\FrameWork\StrangeIoC\scripts\strange\extensions\ReadMe.txt" />
      <None Include="Assets\Scripts\FrameWork\LeanPool\Examples\Shaders\Skybox.shader" />
