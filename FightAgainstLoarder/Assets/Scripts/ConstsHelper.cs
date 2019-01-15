@@ -14,4 +14,14 @@ public enum PanelType
     StartPanel,
 }
 
+public enum CommandEvent
+{
+    ChangeMulitiple
+}
+
+public enum ViewEvent
+{
+    
+}
+
 

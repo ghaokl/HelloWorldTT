@@ -18,7 +18,10 @@ public class GameContext : MVCSContext
         //只需要调用一次
         commandBinder.Bind(ContextEvent.START).To<StartCommand>().Once();
         //View
+        mediationBinder.Bind<StartView>().To<StartMediator>();
         //Command
+        commandBinder.Bind(CommandEvent.ChangeMulitiple).To<ChangeMulitipleCommand>();
+
     }
 }
 

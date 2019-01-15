@@ -52,6 +52,9 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\1Model\IntergationModel.cs" />
+     <Compile Include="Assets\Scripts\2View\Mediator\StartMediator.cs" />
+     <Compile Include="Assets\Scripts\2View\StartView.cs" />
+     <Compile Include="Assets\Scripts\3Contraller\ChangeMulitipleCommand.cs" />
      <Compile Include="Assets\Scripts\3Contraller\StartCommand.cs" />
      <Compile Include="Assets\Scripts\ConstsHelper.cs" />
      <Compile Include="Assets\Scripts\FrameWork\LeanPool\Examples\Scripts\LeanDelayedPooling.cs" />

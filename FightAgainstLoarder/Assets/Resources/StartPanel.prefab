@@ -140,6 +140,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 224338179884128602}
+  - component: {fileID: 114844265582023922}
   m_Layer: 5
   m_Name: StartPanel
   m_TagString: Untagged
@@ -479,6 +480,19 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114844265582023922
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1707990951829898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a742761f72b19be4a95e418e9cac7fd7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  oneBtn: {fileID: 114123543810271674}
+  twoBtn: {fileID: 114499553279358576}
 --- !u!114 &114862694498869584
 MonoBehaviour:
   m_ObjectHideFlags: 1
